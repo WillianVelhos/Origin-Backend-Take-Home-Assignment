@@ -1,0 +1,24 @@
+version: '3.7'
+
+services:
+      
+  web:
+    container_name: web
+    build:
+      context: ./src
+      dockerfile: ./RiskProfile.Web/Dockerfile    
+    ports:
+      - '9090:80'
+          
+  test-web:
+    container_name: test
+    build:
+      context: ./src
+      dockerfile: ./RiskProfile.Web.Test/Dockerfile
+    
+  test-domain:
+    container_name: test-domain
+    build:
+      context: ./src
+      dockerfile: ./RiskProfile.Domain.Test/Dockerfile      
+    

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "RiskProfile.Domain.Test": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "RiskProfile.Web.Test": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
